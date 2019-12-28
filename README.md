@@ -49,7 +49,7 @@ sudo apt install ./wkhtmltox_0.12.1.3-1~bionic_amd64.deb
 
 ```
 sudo su - odoo12
-git clone https://www.github.com/odoo/odoo --depth 1 --branch 12.0 /opt/odoo12/odoo
+git clone https://github.com/MCLCoreTeam/odoo --depth 1 --branch 12.0 /opt/odoo12/odoo
 cd /opt/odoo12
 python3 -m venv odoo-venv
 source odoo-venv/bin/activate
